@@ -148,4 +148,10 @@ else
   echo "fpc is not installed. Skipping Pascal tests..."
 fi
 
+# Run all tests for Crystal
+if [ -x "$(command -v crystal)" ]; then
+  ./tests/scripts/lang_test/crystaltest.sh >>log
+else
+  echo "crystal is not installed. Skipping Crystal tests..."
+fi
 echo -e "\nDone!"
