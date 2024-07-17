@@ -1,0 +1,13 @@
+        IDENTIFICATION DIVISION.
+
+        PROGRAM-ID. SUBMISSION.
+
+        DATA DIVISION.
+        WORKING-STORAGE SECTION.
+        01 N PIC 9(2) VALUE 0.
+
+        PROCEDURE DIVISION.
+            ACCEPT N
+            SUBTRACT 1 FROM N
+            DISPLAY N
+            STOP RUN.
