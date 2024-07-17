@@ -1,0 +1,21 @@
+# Executables
+*.exe
+*.out
+*.app
+
+# Specific files
+submission
+user*.txt
+*.class
+
+# VS Code config
+.vscode
+
+# Log file
+log
+
+# Clion config
+.idea
+
+# User output directory
+user_output
