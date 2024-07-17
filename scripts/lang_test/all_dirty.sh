@@ -134,4 +134,18 @@ else
   echo "perl is not installed. Skipping Perl tests..."
 fi
 
+# Run all tests for COBOL
+if [ -x "$(command -v cobc)" ]; then
+  ./tests/scripts/lang_test/coboltest.sh >>log
+else
+  echo "cobc is not installed. Skipping COBOL tests..."
+fi
+
+# Run all tests for Pascal
+if [ -x "$(command -v fpc)" ]; then
+  ./tests/scripts/lang_test/pascaltest.sh >>log
+else
+  echo "fpc is not installed. Skipping Pascal tests..."
+fi
+
 echo -e "\nDone!"
