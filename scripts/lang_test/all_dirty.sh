@@ -154,4 +154,12 @@ if [ -x "$(command -v crystal)" ]; then
 else
   echo "crystal is not installed. Skipping Crystal tests..."
 fi
+
+# Run all tests for Fortran
+if [ -x "$(command -v gfortran)" ]; then
+  ./tests/scripts/lang_test/fortrantest.sh >>log
+else
+  echo "gfortran is not installed. Skipping Fortran tests..."
+fi
+
 echo -e "\nDone!"
