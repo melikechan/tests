@@ -162,4 +162,11 @@ else
   echo "gfortran is not installed. Skipping Fortran tests..."
 fi
 
+# Run all tests for Lua
+if [ -x "$(command -v lua)" ]; then
+  ./tests/scripts/lang_test/luatest.sh >>log
+else
+  echo "lua is not installed. Skipping Lua tests..."
+fi
+
 echo -e "\nDone!"
