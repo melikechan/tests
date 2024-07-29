@@ -21,7 +21,7 @@
 
 This test is used for determining whether the verdicts are determined correctly or not.
 
-**Time limit**: 1 second (5 seconds for MLE test)
+**Time limit**: 1 second (5 seconds for MLE test, 10 seconds for Dart, Haskell, Fortran and Crystal, 15 seconds for Lua and Elixir)
 
 **Memory limit**: ~128 MB
 

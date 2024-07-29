@@ -16,7 +16,7 @@ echo -e "\n${rst}Running ${bld}verdict test ${rst}${txtylw}TLE"
 ubilo-judger tests/verdict_test/tle/submission.hs HASKELL 1 128000 tests/verdict_test/tle/input/input1.txt tests/verdict_test/tle/output/output1.txt
 
 echo -e "\n${rst}Running ${bld}verdict test ${rst}${txtylw}MLE"
-ubilo-judger tests/verdict_test/mle/submission.hs HASKELL 5 128000 tests/verdict_test/mle/input/input1.txt tests/verdict_test/mle/output/output1.txt
+ubilo-judger tests/verdict_test/mle/submission.hs HASKELL 10 128000 tests/verdict_test/mle/input/input1.txt tests/verdict_test/mle/output/output1.txt
 
 echo -e "\n${rst}Running ${bld}verdict test ${rst}${txtylw}RE"
 ubilo-judger tests/verdict_test/re/submission.hs HASKELL 1 128000 tests/verdict_test/re/input/input1.txt tests/verdict_test/re/output/output1.txt
