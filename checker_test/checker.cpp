@@ -1,10 +1,24 @@
+// Barebones checker example
+
+#include <fstream>
 #include <iostream>
 #include <set>
 #include <vector>
-#include <fstream>
 
 using namespace std;
 
+/* 
+    Convention of the checker:
+    ./checker <input_file> <output_file_to_check>
+    - <input_file>: The input file of the problem.
+    - <output_file_to_check>: The output file to check.
+*/
+
+/*
+    Exit codes:
+    - 0: Accepted
+    - 3: Wrong Answer
+*/
 int main(int argc, char *argv[])
 {
     fstream fin(argv[1]);
@@ -43,7 +57,7 @@ int main(int argc, char *argv[])
     if (s.find(m) == s.end())
     {
         cout << m << " is not the index of the maximum element";
-        exit(1);
+        exit(3);
     }
     else
     {
