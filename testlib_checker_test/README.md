@@ -1,0 +1,52 @@
+# Checker test
+
+**Note:** In the commands below:
+
+- `<submission-lang>` has to be replaced with the language of the submission. (uppercase, e.g. `CPP`, `JAVA`, `PY`, etc.)
+- Assuming that the `ubilo-judger` is in the path, otherwise you have to provide the full path to the `ubilo-judger` executable.
+- Assuming that you are in the `tests/checker_test` directory, otherwise you have to provide the full path to the test directories.
+
+## Table of contents
+
+1. [Brief description](#brief-description)
+2. [Tests](#tests)
+    1. [AC test](#ac-test)
+    2. [WA test](#wa-test)
+
+## Brief description
+
+This test is used for determining whether the checker running and working correctly or not.
+
+**Time limit**: 1 second
+
+**Memory limit**: ~128 MB
+
+## Tests
+
+For this test, you **need a checker to check the outputs.** You can use the sample [checker](checker.cpp) code in this directory.
+
+Before running the tests, you need to compile the checker code.
+
+```bash
+g++ checker.cpp -o checker.out -std=c++17
+```
+
+<h3 id="ac-test">AC (Accepted) test</h3>
+
+You can use the sample code below to test the checker with an AC submission.
+
+```bash
+ubilo-judger ac/submission.x <submission-lang> 1 128000 ac/input/input1.txt ac/output/output1.txt ac/input/input2.txt ac/output/output2.txt checker.out
+```
+
+You can find example codes in [`ac`](ac) directory.
+
+<h3 id="wa-test">WA (Wrong Answer) test</h3>
+
+You can use the sample code below to test the checker with a WA submission.
+
+```bash
+ubilo-judger wa/submission.x <submission-lang> 1 128000 wa/input/input1.txt wa/output/output1.txt checker.out
+```
+
+You can find example codes in [`wa`](wa) directory.
