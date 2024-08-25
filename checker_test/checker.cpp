@@ -9,22 +9,16 @@ using namespace std;
 
 /* 
     Convention of the checker:
-    ./checker <input_file> <output_file> <output_file_to_check>
+    ./checker <input_file> <output_file_to_check> <output_file>
     - <input_file>: The input file of the problem.
-    - <output_file>: The output file of the actual solution.
     - <output_file_to_check>: The output file to check.
-*/
-
-/*
-    Exit codes:
-    - 0: Accepted
-    - 3: Wrong Answer
+    - <output_file>: The output file of the actual solution.
 */
 int main(int argc, char *argv[])
 {
     /// This example takes input to check the user output.
     fstream fin(argv[1]);
-    fstream fout(argv[3]);
+    fstream fout(argv[2]);
 
     int n;
     fin >> n;
@@ -59,7 +53,7 @@ int main(int argc, char *argv[])
     if (s.find(m) == s.end())
     {
         cout << m << " is not the index of the maximum element";
-        exit(3);
+        exit(1);
     }
     else
     {
