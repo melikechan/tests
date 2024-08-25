@@ -9,8 +9,9 @@ using namespace std;
 
 /* 
     Convention of the checker:
-    ./checker <input_file> <output_file_to_check>
+    ./checker <input_file> <output_file> <output_file_to_check>
     - <input_file>: The input file of the problem.
+    - <output_file>: The output file of the actual solution.
     - <output_file_to_check>: The output file to check.
 */
 
@@ -21,8 +22,9 @@ using namespace std;
 */
 int main(int argc, char *argv[])
 {
+    /// This example takes input to check the user output.
     fstream fin(argv[1]);
-    fstream fout(argv[2]);
+    fstream fout(argv[3]);
 
     int n;
     fin >> n;
