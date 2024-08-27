@@ -11,10 +11,10 @@ using namespace std;
 
 /* 
     Convention of the checker:
-    ./checker <input_file> <output_file> <output_file_to_check>
+    ./checker <input_file> <output_file_to_check> <output_file>
     - <input_file>: The input file of the problem.
-    - <output_file>: The output file of the actual solution.
     - <output_file_to_check>: The output file to check.
+    - <output_file>: The output file of the actual solution.
 */
 int main(int argc, char *argv[])
 {

@@ -4,7 +4,7 @@
 
 - `<submission-lang>` has to be replaced with the language of the submission. (uppercase, e.g. `CPP`, `JAVA`, `PY`, etc.)
 - Assuming that the `ubilo-judger` is in the path, otherwise you have to provide the full path to the `ubilo-judger` executable.
-- Assuming that you are in the `tests/checker_test` directory, otherwise you have to provide the full path to the test directories.
+- Assuming that you are in the `tests/testlib_checker_test` directory, otherwise you have to provide the full path to the test directories.
 
 ## Table of contents
 
