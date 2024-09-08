@@ -3,7 +3,7 @@
 # Get script directory
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-g++ tests/yosupo_test/segment-add-get-min/checker.cpp -o tests/yosupo_test/segment-add-get-min/checker.cpp
+g++ tests/yosupo_test/segment-add-get-min/checker.cpp -o tests/yosupo_test/segment-add-get-min/checker.out
  
 echo "Running actual solution"
 
