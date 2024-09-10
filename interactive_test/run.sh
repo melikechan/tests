@@ -12,6 +12,8 @@ g++ tests/interactive_test/interactor.cpp -o tests/interactive_test/interactor.o
 
 $COMMAND
 
-echo -e "\nDone!"
+COMMAND="ubilo-judger tests/interactive_test/mle/submission.cpp CPP17 1 128000 --testlib -i tests/interactive_test/interactor.out tests/interactive_test/mle/input/input1.txt tests/interactive_test/mle/output/output1.txt"
 
-g++ tests/yosupo_test/eertree/checker.cpp -o tests/yosupo_test/eertree/checker.out -std=c++20 && ubilo-judger tests/yosupo_test/eertree/submission.cpp CPP20 1 128000 --testlib -c tests/yosupo_test/eertree/checker.out tests/yosupo_test/eertree/input/input1.txt tests/yosupo_test/eertree/output/output1.txt tests/yosupo_test/eertree/input/input2.txt tests/yosupo_test/eertree/output/output2.txt tests/yosupo_test/eertree/input/input3.txt tests/yosupo_test/eertree/output/output3.txt
+$COMMAND
+
+echo -e "\nDone!"
