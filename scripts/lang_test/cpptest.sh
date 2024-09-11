@@ -31,7 +31,7 @@ echo -e "\n${rst}Running ${bld}checker test ${rst}${txtred}WA"
 g++ tests/checker_test/checker.cpp -o tests/checker_test/checker.out -std=c++20 && ubilo-judger tests/checker_test/wa/submission.cpp CPP11 1 128000 -c tests/checker_test/checker.out tests/checker_test/wa/input/input1.txt tests/checker_test/wa/output/output1.txt
 
 echo -e "\n${rst}Running ${bld}testlib checker test ${rst}${txtgrn}AC"
-g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/wa/submission.cpp CPP11 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/ac/input/input1.txt tests/testlib_checker_test/ac/output/output1.txt tests/testlib_checker_test/ac/input/input2.txt tests/testlib_checker_test/ac/output/output2.txt
+g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/ac/submission.cpp CPP11 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/ac/input/input1.txt tests/testlib_checker_test/ac/output/output1.txt tests/testlib_checker_test/ac/input/input2.txt tests/testlib_checker_test/ac/output/output2.txt
 
 echo -e "\n${rst}Running ${bld}testlib checker test ${rst}${txtred}WA"
 g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/wa/submission.cpp CPP11 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/wa/input/input1.txt tests/testlib_checker_test/wa/output/output1.txt
@@ -63,7 +63,7 @@ echo -e "\n${rst}Running ${bld}checker test ${rst}${txtred}WA"
 g++ tests/checker_test/checker.cpp -o tests/checker_test/checker.out -std=c++20 && ubilo-judger tests/checker_test/wa/submission.cpp CPP14 1 128000 -c tests/checker_test/checker.out tests/checker_test/wa/input/input1.txt tests/checker_test/wa/output/output1.txt
 
 echo -e "\n${rst}Running ${bld}testlib checker test ${rst}${txtgrn}AC"
-g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/wa/submission.cpp CPP14 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/ac/input/input1.txt tests/testlib_checker_test/ac/output/output1.txt tests/testlib_checker_test/ac/input/input2.txt tests/testlib_checker_test/ac/output/output2.txt
+g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/ac/submission.cpp CPP14 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/ac/input/input1.txt tests/testlib_checker_test/ac/output/output1.txt tests/testlib_checker_test/ac/input/input2.txt tests/testlib_checker_test/ac/output/output2.txt
 
 echo -e "\n${rst}Running ${bld}testlib checker test ${rst}${txtred}WA"
 g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/wa/submission.cpp CPP14 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/wa/input/input1.txt tests/testlib_checker_test/wa/output/output1.txt
@@ -95,7 +95,7 @@ echo -e "\n${rst}Running ${bld}checker test ${rst}${txtred}WA"
 g++ tests/checker_test/checker.cpp -o tests/checker_test/checker.out -std=c++20 && ubilo-judger tests/checker_test/wa/submission.cpp CPP17 1 128000 -c tests/checker_test/checker.out tests/checker_test/wa/input/input1.txt tests/checker_test/wa/output/output1.txt
 
 echo -e "\n${rst}Running ${bld}testlib checker test ${rst}${txtgrn}AC"
-g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/wa/submission.cpp CPP17 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/ac/input/input1.txt tests/testlib_checker_test/ac/output/output1.txt tests/testlib_checker_test/ac/input/input2.txt tests/testlib_checker_test/ac/output/output2.txt
+g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/ac/submission.cpp CPP17 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/ac/input/input1.txt tests/testlib_checker_test/ac/output/output1.txt tests/testlib_checker_test/ac/input/input2.txt tests/testlib_checker_test/ac/output/output2.txt
 
 echo -e "\n${rst}Running ${bld}testlib checker test ${rst}${txtred}WA"
 g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/wa/submission.cpp CPP17 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/wa/input/input1.txt tests/testlib_checker_test/wa/output/output1.txt
@@ -127,7 +127,7 @@ echo -e "\n${rst}Running ${bld}checker test ${rst}${txtred}WA"
 g++ tests/checker_test/checker.cpp -o tests/checker_test/checker.out -std=c++20 && ubilo-judger tests/checker_test/wa/submission.cpp CPP20 1 128000 -c tests/checker_test/checker.out tests/checker_test/wa/input/input1.txt tests/checker_test/wa/output/output1.txt
 
 echo -e "\n${rst}Running ${bld}testlib checker test ${rst}${txtgrn}AC"
-g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/wa/submission.cpp CPP20 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/ac/input/input1.txt tests/testlib_checker_test/ac/output/output1.txt tests/testlib_checker_test/ac/input/input2.txt tests/testlib_checker_test/ac/output/output2.txt
+g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/ac/submission.cpp CPP20 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/ac/input/input1.txt tests/testlib_checker_test/ac/output/output1.txt tests/testlib_checker_test/ac/input/input2.txt tests/testlib_checker_test/ac/output/output2.txt
 
 echo -e "\n${rst}Running ${bld}testlib checker test ${rst}${txtred}WA"
 g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/wa/submission.cpp CPP20 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/wa/input/input1.txt tests/testlib_checker_test/wa/output/output1.txt

@@ -34,6 +34,6 @@ echo -e "\n${rst}Running ${bld}testlib checker test ${rst}${txtgrn}AC"
 g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/ac/submission.cr CRYSTAL 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/ac/input/input1.txt tests/testlib_checker_test/ac/output/output1.txt tests/testlib_checker_test/ac/input/input2.txt tests/testlib_checker_test/ac/output/output2.txt
 
 echo -e "\n${rst}Running ${bld}testlib checker test ${rst}${txtred}WA"
-g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/ac/submission.cr CRYSTAL 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/wa/input/input1.txt tests/testlib_checker_test/wa/output/output1.txt
+g++ tests/testlib_checker_test/checker.cpp -o tests/testlib_checker_test/checker.out -std=c++20 && ubilo-judger tests/testlib_checker_test/wa/submission.cr CRYSTAL 1 128000 --testlib -c tests/testlib_checker_test/checker.out tests/testlib_checker_test/wa/input/input1.txt tests/testlib_checker_test/wa/output/output1.txt
 
 echo -e "\nDone!"
