@@ -1,6 +1,6 @@
 // Barebones interactor example
 
-#include "testlib.h"
+#include "../binary_search/testlib.h"
 
 #include <iostream>
 #include <csignal>
